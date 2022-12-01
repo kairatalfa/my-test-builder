@@ -1,0 +1,15 @@
+.uiButton {
+  width: 600px;
+  height: 150px;
+  text-decoration: none;
+}
+.text {
+  color: black;
+  font-size: 30px;
+}
+.conteiner {
+  background-color: bisque;
+}
+.forlinerNone {
+  text-decoration: none;
+}

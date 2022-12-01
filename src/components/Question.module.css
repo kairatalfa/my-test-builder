@@ -1,0 +1,84 @@
+.button {
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.121);
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+.question_section {
+  width: 100%;
+  position: relative;
+}
+.forLainerNone {
+  text-decoration: none;
+  background-color: #ffffff;
+  margin: 50px;
+  box-shadow: 2px 2px 5px 2px;
+  border-radius: 10px;
+}
+.textGoToHome {
+  color: black;
+}
+.forlinerNone {
+  text-decoration: none;
+}
+.score_section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+.question_count {
+  margin-bottom: 20px;
+}
+.question_count span {
+  font-size: 28px;
+}
+.question_text {
+  margin-bottom: 12px;
+}
+.answer_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+.score {
+  padding-left: 20px;
+}
+.conteiner {
+  background-color: rgba(0, 0, 0, 0.121);
+  width: 600px;
+  min-height: 300px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
